@@ -105,10 +105,3 @@ Project: Pizza Shop Billing System – Technical Assessment
 This project is for educational and assessment purposes only.
 
 ---
-
-Would you like:
-- A `schema.sql` file to match the tables?
-- Example `.env` or `.gitignore` setup?
-- Frontend README too?
-
-Let me know how far you want to polish this for submission or upload.
