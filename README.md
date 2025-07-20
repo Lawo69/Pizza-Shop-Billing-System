@@ -32,26 +32,26 @@ A full-stack web application for managing pizza shop items and generating custom
 ## 🛠️ Project Structure
 
 pizza-billing-system/
-├── backend/ # Go server code
-├── frontend/ # React client code
-├── db/ # PostgreSQL SQL schema & backup
-├── docs/ # Screenshots, PDFs, diagrams
-└── README.md
+-├── backend/ # Go server code
+-├── frontend/ # React client code
+-├── db/ # PostgreSQL SQL schema & backup
+-├── docs/ # Screenshots, PDFs, diagrams
+-└── README.md
 
 ## 📂 Backend Setup (Go + PostgreSQL)
 
 ### 1. Install Dependencies
 ```bash
 go mod tidy
-
+```
 ### 2. Environment
 ```bash
 dsn := "host=localhost port=5432 user=postgres password=yourpassword dbname=pizza_billing sslmode=disable"
-
+```
 ### 3. Run Server
 ```bash
 go run main.go
-
+```
 Backend will start on: http://localhost:8080
 
 ## 🧾 API Endpoints
@@ -69,15 +69,15 @@ Backend will start on: http://localhost:8080
 ### 1. Navigate to Frontend
 ```bash
 cd frontend
-
+```
 ### 2. Install Dependencies
 ```bash
 npm install
-
+```
 ### 3. Run Frontend
 ```bash
 npm run dev
-
+```
 Frontend runs on: http://localhost:5173
 
 ## 🧰 Database
